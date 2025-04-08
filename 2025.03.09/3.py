@@ -1,6 +1,6 @@
-количество_минут = int(input())
+quantity_minutes = int(input())
 
-час = количество_минут // 60
-минуты = количество_минут % 60
+hour = quantity_minutes // 60
+minutes = quantity_minutes % 60
 
-print(f'{количество_минут} мин - это {час} час {минуты} мин')
+print(f'{quantity_minutes} мин - это {hour} час {minutes} мин')

@@ -1,10 +1,9 @@
-целая_часть_мили = int (input())
-дробная_часть_мили = int (input())
+miles_whole = int (input())
+miles_fraction = int (input())
 
-мили = целая_часть_мили + дробная_часть_мили / 10
-километры = мили * 1.61
-округленные_километры = f'{километры:.1f}'
+miles = miles_whole + miles_fraction / 10
+kilometers = miles * 1.61
+kilometers_rounded = f'{kilometers:.1f}'
 
-print(f'{мили} миль = {округленные_километры} км')
-
+print(f'{miles} миль = {kilometers_rounded} км')
 
