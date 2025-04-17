@@ -8,7 +8,10 @@ age = now - year_of_birth
 
 print(name, surname,',', age)
 
-
+# Введите имя: Elena
+# Введите фамилию: Gromova
+# Введите год рождения: 1976
+ # Elena  Gromova , 49
 
 
 

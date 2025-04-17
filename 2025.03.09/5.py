@@ -7,3 +7,6 @@ kilometers_rounded = f'{kilometers:.1f}'
 
 print(f'{miles} миль = {kilometers_rounded} км')
 
+# 1
+# 4
+# 1.4 миль = 2.3 км
